@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karighar</title>
+    <link rel="stylesheet" href="b_register.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><a href="home.html"><img src="../KariGhar.png" alt="Karighar"></a></div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="currec.html">বর্তমান বংশদ্ভুত</a></li>
+                <li><a href="customerservice.html">গ্রাহক সেবা</a></li>
+                <li><a href="aboutus.html">আমাদের সম্পর্কে</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <a href="../languages.html" class="language">ভাষা</a>
+    </div>
+    <div class="regform">
+        <div class="alert"><p>आपकी जानकारी दर्ज की गई है।</p> </div>
+        <div class="reghead">
+            <h2>নিবন্ধন</h2>
+        </div>
+        <div>
+            <form action="" id="register">
+                <div class="regpara">
+                    <div class="regp1">
+                        <div class="fn">
+                            <span class="details">নামের প্রথম অংশ</span>
+                            <input type="text" id="fname" placeholder="আপনার নামের প্রথম অংশ দিন" required>
+                        </div>
+                        <div class="email">
+                            <span class="details">আধার কার্ড নম্বর</span>
+                            <input type="text" id="email" placeholder="আপনার আধার নম্বর লিখুন" required>
+                        </div>
+                        <div class="=aadhar">
+                            <span class="details">ফোন নম্বর</span>
+                            <input type="text" id="aadhar" placeholder="আপনার নাম্বার প্রবেশ করান" required minlength="12" maxlength="12">
+                        </div>
+                    </div>
+                    <div class="regp2">
+                        <div class="ln">
+                            <span class="details">ইমেইল</span>
+                            <input type="text" id="lname" placeholder="আপনার ইমেল ঠিকানা লিখুন দয়া করে" required>
+                        </div>
+                        <div class="phone">
+                            <span class="details">পদবি</span>
+                            <input type="text" id="phone" placeholder="তোমার ডাকনাম প্রবেশ করাও" required minlength="10" maxlength="10">
+                        </div>
+                        <div class="pass">
+                            <span class="details">পাসওয়ার্ড</span>
+                            <input type="text" id="pass" placeholder="আপনার পাসওয়ার্ড দিন" required minlength="6">
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit">প্রযোজ্য</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="../register.js"></script>
+</section>
+<footer class="footer">
+    <div class="fcontainer">
+        <div class="row">
+            <div class="footer-col">
+                <h4>বিভিন্ন লিঙ্ক</h4>
+                <ul>
+                    <li><a href="home.html">বাড়ি</a></li>
+                    <li><a href="currec.html">বর্তমান আরোহণ</a></li>
+                    <li><a href="customerservice.html">গ্রাহক সেবা</a></li>
+                    <li><a href="aboutus.html">আমাদের সম্পর্কে</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>যোগাযোগ করা</h4>
+                <ul>
+                    <li><a href="customerservice.html">গ্রাহক সেবা</a></li>
+                    <li><a href="mailto:enterprisekarighar@gmail.com"><img src="../mail.png" alt="mail"></a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>ভাষা</h4>
+                <ul>
+                    <li><a href="/">English</a></li>
+                    <li><a href="../hindi/home.html">हिंदी</a></li>
+                    <li><a href="../punjabi/home.html">ਪੰਜਾਬੀ</a></li>
+                    <li><a href="../gujarati/home.html">ગુજરાતી</a></li>
+                    <li><a href="home.html">বাংলা</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
