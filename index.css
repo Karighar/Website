@@ -308,6 +308,9 @@ ul{
     filter: blur(0px);
 }
 @media (min-width: 1919px) {
+    body{
+        overflow-x: hidden;
+    }
     nav ul{
         font-size: 50px;
         height: 137.5px;
